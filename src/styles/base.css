@@ -1,0 +1,44 @@
+
+html {
+  box-sizing: border-box;
+}
+
+html, body, #app, #app > div {
+  height:100%;
+  width:100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+
+  color: #485264;
+  font-family: "citrixsans-regular", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+
+  background: #F4F5F6;
+
+  font-size: 16px;
+  line-height: 1.3;
+
+  @media (min-width: 800px) {
+    font-size: 18px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+
+a {
+  color: #1671a6;
+}
+
+a:hover {
+  color: #156889;
+}
