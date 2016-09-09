@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react'
 import Highlight from 'react-highlight'
+import ReactDOMServer from 'react-dom/server'
 
 import "../../../node_modules/highlight.js/styles/github.css"
 
@@ -10,7 +11,7 @@ const propTypes = {
 const ExampleCodeBlock = ({ children }) => {
   return (
     <Highlight className="html">
-      {`${children}`}
+      { ReactDOMServer.renderToStaticMarkup(children) }
     </Highlight>
   )
 }

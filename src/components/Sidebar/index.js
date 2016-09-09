@@ -13,6 +13,7 @@ const Sidebar = () => {
       <div className={styles.sectionHeader}>Colors</div>
       <div className={styles.sectionHeader}>Typography</div>
       <div className={styles.sectionHeader}>Components</div>
+      
       <ul>
         <li>Buttons</li>
         <li>List</li>

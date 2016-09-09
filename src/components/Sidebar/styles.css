@@ -1,13 +1,16 @@
 .root {
    background: #0292EA;
    color: #FFF;
-   width: 280px;
+   width: 220px;
    padding: 48px 24px;
+   font-size: 16px;
 }
 
 
 .sectionHeader {
   text-transform: uppercase;
-  color: rgba(255,255,255,0.7);
+  color: rgba(255, 255, 255, 0.6);
   margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: bold;
 }
