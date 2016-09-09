@@ -1,0 +1,13 @@
+.root {
+   background: #0292EA;
+   color: #FFF;
+   width: 280px;
+   padding: 48px 24px;
+}
+
+
+.sectionHeader {
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 12px;
+}

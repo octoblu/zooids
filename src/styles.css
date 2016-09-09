@@ -1,0 +1,218 @@
+html, body {
+  height: 100%;
+  min-height: 100%;
+  background: oldlace;
+  padding: 0;
+  margin: 0;
+
+  font-family: 'citrixsans-light', sans-serif;
+  font-size: 16px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.font-regular {
+  font-family: 'citrixsans-regular', sans-serif;
+}
+.font-bold {
+  font-family: 'citrixsans-bold', sans-serif;
+}
+.font-bold-italic {
+  font-family: 'citrixsans-bolditalic', sans-serif;
+}
+.font-italic {
+  font-family: 'citrixsans-italic', sans-serif;
+}
+.font-light {
+  font-family: 'citrixsans-light', sans-serif;
+}
+.font-light-italic {
+  font-family: 'citrixsans-lightitalic', sans-serif;
+}
+.font-semibold {
+  font-family: 'citrixsans-semibold', sans-serif;
+}
+.font-semibold-italic {
+  font-family: 'citrixsans-semibolditalic', sans-serif;
+}
+@font-face {
+  font-family:"citrixsans";
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-light.eot");
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-light.eot?#iefix") format("embedded-opentype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-light.woff") format("woff"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-light.ttf") format("truetype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-light.svg#citrixsans") format("svg");
+  font-weight:200;
+  font-style:normal
+}
+
+@font-face {
+  font-family:"citrixsans";
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-lightitalic.eot");
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-lightitalic.eot?#iefix") format("embedded-opentype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-lightitalic.woff") format("woff"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-lightitalic.ttf") format("truetype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-lightitalic.svg#citrixsans") format("svg");
+  font-weight:200;
+  font-style:italic
+}
+
+@font-face {
+  font-family:"citrixsans";
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-regular.eot");
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-regular.eot?#iefix") format("embedded-opentype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-regular.woff") format("woff"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-regular.ttf") format("truetype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-regular.svg#citrixsans") format("svg");
+  font-weight:400;
+  font-style:normal
+}
+
+@font-face {
+  font-family:"citrixsans";
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-italic.eot");
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-italic.eot?#iefix") format("embedded-opentype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-italic.woff") format("woff"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-italic.ttf") format("truetype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-italic.svg#citrixsans") format("svg");
+  font-weight:400;
+  font-style:italic
+}
+
+@font-face {
+  font-family:"citrixsans";
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibold.eot");
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibold.eot?#iefix") format("embedded-opentype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibold.woff") format("woff"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibold.ttf") format("truetype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibold.svg#citrixsans") format("svg");
+  font-weight:600;
+  font-style:normal
+}
+
+@font-face {
+  font-family:"citrixsans";
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibolditalic.eot");
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibolditalic.eot?#iefix") format("embedded-opentype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibolditalic.woff") format("woff"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibolditalic.ttf") format("truetype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibolditalic.svg#citrixsans") format("svg");
+  font-weight:600;
+  font-style:italic
+}
+
+@font-face {
+  font-family:"citrixsans";
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bold.eot");
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bold.eot?#iefix") format("embedded-opentype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bold.woff") format("woff"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bold.ttf") format("truetype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bold.svg#citrixsans") format("svg");
+  font-weight:700;
+  font-style:normal
+}
+
+@font-face {
+  font-family:"citrixsans";
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bolditalic.eot");
+  src:url("//cdn.octoblu.com/font-style: oblique;nts/citrix-sans/citrixsans-bolditalic.eot?#iefix") format("embedded-opentype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bolditalic.woff") format("woff"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bolditalic.ttf") format("truetype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bolditalic.svg#citrixsans") format("svg");
+  font-weight:700;
+  font-style:italic
+}
+
+@font-face {
+  font-family:"citrixsans-light";
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-light.eot");
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-light.eot?#iefix") format("embedded-opentype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-light.woff") format("woff"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-light.ttf") format("truetype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-light.svg#citrixsans-light") format("svg");
+  font-weight:200;
+  font-style:normal
+}
+
+@font-face {
+  font-family:"citrixsans-lightitalic";
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-lightitalic.eot");
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-lightitalic.eot?#iefix") format("embedded-opentype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-lightitalic.woff") format("woff"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-lightitalic.ttf") format("truetype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-lightitalic.svg#citrixsans-lightitalic") format("svg");
+  font-weight:200;
+  font-style:italic
+}
+
+@font-face {
+  font-family:"citrixsans-regular";
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-regular.eot");
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-regular.eot?#iefix") format("embedded-opentype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-regular.woff") format("woff"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-regular.ttf") format("truetype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-regular.svg#citrixsans-regular") format("svg");
+  font-weight:400;
+  font-style:normal
+}
+
+@font-face {
+  font-family:"citrixsans-italic";
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-italic.eot");
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-italic.eot?#iefix") format("embedded-opentype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-italic.woff") format("woff"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-italic.ttf") format("truetype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-italic.svg#citrixsans-italic") format("svg");
+  font-weight:400;
+  font-style:italic
+}
+
+@font-face {
+  font-family:"citrixsans-semibold";
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibold.eot");
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibold.eot?#iefix") format("embedded-opentype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibold.woff") format("woff"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibold.ttf") format("truetype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibold.svg#citrixsans-semibold") format("svg");
+  font-weight:600;
+  font-style:normal
+}
+
+@font-face {
+  font-family:"citrixsans-semibolditalic";
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibolditalic.eot");
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibolditalic.eot?#iefix") format("embedded-opentype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibolditalic.woff") format("woff"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibolditalic.ttf") format("truetype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-semibolditalic.svg#citrixsans-semibolditalic") format("svg");
+  font-weight:600;
+  font-style:italic
+}
+
+@font-face {
+  font-family:"citrixsans-bold";
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bold.eot");
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bold.eot?#iefix") format("embedded-opentype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bold.woff") format("woff"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bold.ttf") format("truetype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bold.svg#citrixsans-bold") format("svg");
+  font-weight:700;
+  font-style:normal
+}
+
+@font-face {
+  font-family:"citrixsans-bolditalic";
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bolditalic.eot");
+  src:url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bolditalic.eot?#iefix") format("embedded-opentype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bolditalic.woff") format("woff"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bolditalic.ttf") format("truetype"),
+      url("//cdn.octoblu.com/fonts/citrix-sans/citrixsans-bolditalic.svg#citrixsans-bolditalic") format("svg");
+  font-weight:700;
+  font-style:italic
+}

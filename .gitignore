@@ -1,4 +1,8 @@
-lib/
+# Build directory
+dist
+
+# Deployment assets
+dpl_*
 
 # Logs
 logs
@@ -33,3 +37,6 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# dev files
+.*-dev
