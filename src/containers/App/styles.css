@@ -1,4 +1,5 @@
 .root {
   height: 100%;
   background: #FFF;
+  justify-content: flex-start !important;
 }

@@ -1,20 +1,21 @@
-html, body {
-  height: 100%;
-  min-height: 100%;
-  background: oldlace;
-  padding: 0;
-  margin: 0;
-
-  font-family: 'citrixsans-light', sans-serif;
-  font-size: 16px;
-}
-
 html {
   box-sizing: border-box;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'citrixsans-light', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .font-regular {

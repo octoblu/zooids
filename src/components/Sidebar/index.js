@@ -15,6 +15,10 @@ const Sidebar = () => {
       <div className={styles.sectionHeader}>Components</div>
       <ul>
         <li>Buttons</li>
+        <li>List</li>
+        <li>Input</li>
+        <li>Card</li>
+        <li>Tabs</li>
       </ul>
     </div>
   )
