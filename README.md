@@ -3,6 +3,7 @@ A zooid or zoöid /ˈzoʊ.ɔɪd/ is a single animal that is part of a colonial a
 
 Zooids are small [React](https://facebook.github.io/react/) components used to build applications of any size.
 
+-------------
 
 We have created a generator, [generator-zooid](https://github.com/octoblu/generator-zooid), that can create zooids, zooid applications, simple React components, Ducks (Redux action/reducer group), or styled React components. 
 
@@ -13,6 +14,7 @@ npm install --global generator-zooid
 yo zooid:application
 ```
 
+-------------
 
 Here's a list of current zooids that you can use:
 
